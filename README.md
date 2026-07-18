@@ -42,3 +42,4 @@ Nova Launcher se distribuye bajo la licencia **GNU LGPLv3**. Consulta el archivo
 ---
 
 *Desarrollado con ❤️ por la comunidad. Basado en el trabajo original de PojavLauncherTeam.*
+ 
