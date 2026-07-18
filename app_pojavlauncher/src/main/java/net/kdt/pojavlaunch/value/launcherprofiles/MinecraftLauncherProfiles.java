@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.value.launcherprofiles;
+package net.kdt.novalaunch.value.launcherprofiles;
 import androidx.annotation.Keep;
 
 import java.util.*;
-import net.kdt.pojavlaunch.*;
+import net.kdt.novalaunch.*;
 
 @Keep
 public class MinecraftLauncherProfiles {

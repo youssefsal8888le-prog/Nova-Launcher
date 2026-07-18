@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch;
+package net.kdt.novalaunch;
 
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
-import static net.kdt.pojavlaunch.Tools.dialogForceClose;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_ENABLE_GYRO;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_SUSTAINED_PERFORMANCE;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_USE_ALTERNATE_SURFACE;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_VIRTUAL_MOUSE_START;
+import static net.kdt.novalaunch.Tools.currentDisplayMetrics;
+import static net.kdt.novalaunch.Tools.dialogForceClose;
+import static net.kdt.novalaunch.prefs.LauncherPreferences.PREF_ENABLE_GYRO;
+import static net.kdt.novalaunch.prefs.LauncherPreferences.PREF_SUSTAINED_PERFORMANCE;
+import static net.kdt.novalaunch.prefs.LauncherPreferences.PREF_USE_ALTERNATE_SURFACE;
+import static net.kdt.novalaunch.prefs.LauncherPreferences.PREF_VIRTUAL_MOUSE_START;
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 import static org.lwjgl.glfw.CallbackBridge.windowHeight;
 import static org.lwjgl.glfw.CallbackBridge.windowWidth;
@@ -45,27 +45,27 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.kdt.LoggerView;
 
-import net.kdt.pojavlaunch.customcontrols.ControlButtonMenuListener;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlDrawerData;
-import net.kdt.pojavlaunch.customcontrols.ControlJoystickData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.CustomControls;
-import net.kdt.pojavlaunch.customcontrols.EditorExitable;
-import net.kdt.pojavlaunch.customcontrols.keyboard.LwjglCharSender;
-import net.kdt.pojavlaunch.customcontrols.keyboard.TouchCharInput;
-import net.kdt.pojavlaunch.customcontrols.mouse.GyroControl;
-import net.kdt.pojavlaunch.customcontrols.mouse.HotbarView;
-import net.kdt.pojavlaunch.customcontrols.mouse.Touchpad;
-import net.kdt.pojavlaunch.lifecycle.ContextExecutor;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.prefs.QuickSettingSideDialog;
-import net.kdt.pojavlaunch.services.GameService;
-import net.kdt.pojavlaunch.utils.JREUtils;
-import net.kdt.pojavlaunch.utils.MCOptionUtils;
-import net.kdt.pojavlaunch.value.MinecraftAccount;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import net.kdt.novalaunch.customcontrols.ControlButtonMenuListener;
+import net.kdt.novalaunch.customcontrols.ControlData;
+import net.kdt.novalaunch.customcontrols.ControlDrawerData;
+import net.kdt.novalaunch.customcontrols.ControlJoystickData;
+import net.kdt.novalaunch.customcontrols.ControlLayout;
+import net.kdt.novalaunch.customcontrols.CustomControls;
+import net.kdt.novalaunch.customcontrols.EditorExitable;
+import net.kdt.novalaunch.customcontrols.keyboard.LwjglCharSender;
+import net.kdt.novalaunch.customcontrols.keyboard.TouchCharInput;
+import net.kdt.novalaunch.customcontrols.mouse.GyroControl;
+import net.kdt.novalaunch.customcontrols.mouse.HotbarView;
+import net.kdt.novalaunch.customcontrols.mouse.Touchpad;
+import net.kdt.novalaunch.lifecycle.ContextExecutor;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.prefs.QuickSettingSideDialog;
+import net.kdt.novalaunch.services.GameService;
+import net.kdt.novalaunch.utils.JREUtils;
+import net.kdt.novalaunch.utils.MCOptionUtils;
+import net.kdt.novalaunch.value.MinecraftAccount;
+import net.kdt.novalaunch.value.launcherprofiles.LauncherProfiles;
+import net.kdt.novalaunch.value.launcherprofiles.MinecraftProfile;
 
 import org.lwjgl.glfw.CallbackBridge;
 

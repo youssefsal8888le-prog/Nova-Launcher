@@ -1,5 +1,5 @@
-# Remove PojavLauncher account data
-PojavLauncher uses two types of accounts:
+# Remove Nova Launcher account data
+Nova Launcher uses two types of accounts:
 - Local accounts
 - Microsoft accounts
 <br>

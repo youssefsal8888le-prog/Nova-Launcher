@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package net.kdt.novalaunch.customcontrols.gamepad;
 
 import static android.view.InputDevice.KEYBOARD_TYPE_ALPHABETIC;
 import static android.view.InputDevice.SOURCE_GAMEPAD;

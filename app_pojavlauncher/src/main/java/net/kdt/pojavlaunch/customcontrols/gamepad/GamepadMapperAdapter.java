@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.gamepad;
+package net.kdt.novalaunch.customcontrols.gamepad;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -15,10 +15,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.recyclerview.widget.RecyclerView;
 
-import net.kdt.pojavlaunch.EfficientAndroidLWJGLKeycode;
-import net.kdt.pojavlaunch.GrabListener;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
+import net.kdt.novalaunch.EfficientAndroidLWJGLKeycode;
+import net.kdt.novalaunch.GrabListener;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
 
 import android.widget.TextView;
 

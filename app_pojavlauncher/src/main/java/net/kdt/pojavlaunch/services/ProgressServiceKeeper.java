@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.services;
+package net.kdt.novalaunch.services;
 
 import android.content.Context;
 
-import net.kdt.pojavlaunch.progresskeeper.TaskCountListener;
+import net.kdt.novalaunch.progresskeeper.TaskCountListener;
 
 public class ProgressServiceKeeper implements TaskCountListener {
     private final Context context;

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package net.kdt.novalaunch.fragments;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -18,9 +18,9 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.customcontrols.gamepad.Gamepad;
-import net.kdt.pojavlaunch.customcontrols.gamepad.GamepadMapperAdapter;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.customcontrols.gamepad.Gamepad;
+import net.kdt.novalaunch.customcontrols.gamepad.GamepadMapperAdapter;
 
 import fr.spse.gamepad_remapper.RemapperManager;
 import fr.spse.gamepad_remapper.RemapperView;

@@ -1,10 +1,10 @@
-package net.kdt.pojavlaunch;
+package net.kdt.novalaunch;
 
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.Build.VERSION_CODES.P;
-import static net.kdt.pojavlaunch.PojavApplication.sExecutorService;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_IGNORE_NOTCH;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_NOTCH_SIZE;
+import static net.kdt.novalaunch.PojavApplication.sExecutorService;
+import static net.kdt.novalaunch.prefs.LauncherPreferences.PREF_IGNORE_NOTCH;
+import static net.kdt.novalaunch.prefs.LauncherPreferences.PREF_NOTCH_SIZE;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -49,28 +49,28 @@ import androidx.fragment.app.FragmentActivity;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import net.kdt.pojavlaunch.lifecycle.ContextExecutor;
-import net.kdt.pojavlaunch.lifecycle.ContextExecutorTask;
-import net.kdt.pojavlaunch.lifecycle.LifecycleAwareAlertDialog;
-import net.kdt.pojavlaunch.memory.MemoryHoleFinder;
-import net.kdt.pojavlaunch.memory.SelfMapsParser;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.multirt.Runtime;
-import net.kdt.pojavlaunch.plugins.FFmpegPlugin;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.DateUtils;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
-import net.kdt.pojavlaunch.utils.FileUtils;
-import net.kdt.pojavlaunch.utils.GLInfoUtils;
-import net.kdt.pojavlaunch.utils.JREUtils;
-import net.kdt.pojavlaunch.utils.JSONUtils;
-import net.kdt.pojavlaunch.utils.MCOptionUtils;
-import net.kdt.pojavlaunch.utils.OldVersionsUtils;
-import net.kdt.pojavlaunch.value.DependentLibrary;
-import net.kdt.pojavlaunch.value.MinecraftAccount;
-import net.kdt.pojavlaunch.value.MinecraftLibraryArtifact;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import net.kdt.novalaunch.lifecycle.ContextExecutor;
+import net.kdt.novalaunch.lifecycle.ContextExecutorTask;
+import net.kdt.novalaunch.lifecycle.LifecycleAwareAlertDialog;
+import net.kdt.novalaunch.memory.MemoryHoleFinder;
+import net.kdt.novalaunch.memory.SelfMapsParser;
+import net.kdt.novalaunch.multirt.MultiRTUtils;
+import net.kdt.novalaunch.multirt.Runtime;
+import net.kdt.novalaunch.plugins.FFmpegPlugin;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.utils.DateUtils;
+import net.kdt.novalaunch.utils.DownloadUtils;
+import net.kdt.novalaunch.utils.FileUtils;
+import net.kdt.novalaunch.utils.GLInfoUtils;
+import net.kdt.novalaunch.utils.JREUtils;
+import net.kdt.novalaunch.utils.JSONUtils;
+import net.kdt.novalaunch.utils.MCOptionUtils;
+import net.kdt.novalaunch.utils.OldVersionsUtils;
+import net.kdt.novalaunch.value.DependentLibrary;
+import net.kdt.novalaunch.value.MinecraftAccount;
+import net.kdt.novalaunch.value.MinecraftLibraryArtifact;
+import net.kdt.novalaunch.value.launcherprofiles.LauncherProfiles;
+import net.kdt.novalaunch.value.launcherprofiles.MinecraftProfile;
 
 import org.apache.commons.codec.binary.Hex;
 import org.apache.commons.io.IOUtils;
@@ -101,11 +101,11 @@ import java.util.Map;
 public final class Tools {
     public  static final float BYTE_TO_MB = 1024 * 1024;
     public static final Handler MAIN_HANDLER = new Handler(Looper.getMainLooper());
-    public static String APP_NAME = "PojavLauncher";
+    public static String APP_NAME = "Nova Launcher";
 
     public static final Gson GLOBAL_GSON = new GsonBuilder().setPrettyPrinting().create();
 
-    public static final String URL_HOME = "https://pojavlauncherteam.github.io";
+    public static final String URL_HOME = "https://novalauncherteam.github.io";
     public static String NATIVE_LIB_DIR;
     public static String DIR_DATA; //Initialized later to get context
     public static File DIR_CACHE;
@@ -116,7 +116,7 @@ public final class Tools {
 
     // New since 3.3.1
     public static String DIR_ACCOUNT_NEW;
-    public static String DIR_GAME_HOME = Environment.getExternalStorageDirectory().getAbsolutePath() + "/games/PojavLauncher";
+    public static String DIR_GAME_HOME = Environment.getExternalStorageDirectory().getAbsolutePath() + "/games/Nova Launcher";
     public static String DIR_GAME_NEW;
     public static String GAME_PROFILES_FILE;
 
@@ -140,7 +140,7 @@ public final class Tools {
         if(SDK_INT >= 29) {
             return ctx.getExternalFilesDir(null);
         }else{
-            return new File(Environment.getExternalStorageDirectory(),"games/PojavLauncher");
+            return new File(Environment.getExternalStorageDirectory(),"games/Nova Launcher");
         }
     }
 

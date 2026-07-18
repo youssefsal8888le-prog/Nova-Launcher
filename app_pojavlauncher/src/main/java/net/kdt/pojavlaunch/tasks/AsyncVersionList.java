@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.tasks;
+package net.kdt.novalaunch.tasks;
 
-import static net.kdt.pojavlaunch.PojavApplication.sExecutorService;
-import static net.kdt.pojavlaunch.utils.DownloadUtils.downloadString;
+import static net.kdt.novalaunch.PojavApplication.sExecutorService;
+import static net.kdt.novalaunch.utils.DownloadUtils.downloadString;
 
 import android.util.Log;
 
@@ -11,9 +11,9 @@ import com.google.gson.JsonIOException;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.stream.JsonReader;
 
-import net.kdt.pojavlaunch.JMinecraftVersionList;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.JMinecraftVersionList;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
 
 import java.io.File;
 import java.io.FileNotFoundException;

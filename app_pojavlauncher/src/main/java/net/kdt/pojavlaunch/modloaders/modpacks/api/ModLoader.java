@@ -1,14 +1,14 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.api;
+package net.kdt.novalaunch.modloaders.modpacks.api;
 
 import android.content.Context;
 import android.content.Intent;
 
-import net.kdt.pojavlaunch.JavaGUILauncherActivity;
-import net.kdt.pojavlaunch.modloaders.FabriclikeDownloadTask;
-import net.kdt.pojavlaunch.modloaders.FabriclikeUtils;
-import net.kdt.pojavlaunch.modloaders.ForgeDownloadTask;
-import net.kdt.pojavlaunch.modloaders.ForgeUtils;
-import net.kdt.pojavlaunch.modloaders.ModloaderDownloadListener;
+import net.kdt.novalaunch.JavaGUILauncherActivity;
+import net.kdt.novalaunch.modloaders.FabriclikeDownloadTask;
+import net.kdt.novalaunch.modloaders.FabriclikeUtils;
+import net.kdt.novalaunch.modloaders.ForgeDownloadTask;
+import net.kdt.novalaunch.modloaders.ForgeUtils;
+import net.kdt.novalaunch.modloaders.ModloaderDownloadListener;
 
 import java.io.File;
 

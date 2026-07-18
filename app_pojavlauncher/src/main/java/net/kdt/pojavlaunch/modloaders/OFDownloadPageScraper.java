@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders;
+package net.kdt.novalaunch.modloaders;
 
 import org.htmlcleaner.HtmlCleaner;
 import org.htmlcleaner.HtmlNode;

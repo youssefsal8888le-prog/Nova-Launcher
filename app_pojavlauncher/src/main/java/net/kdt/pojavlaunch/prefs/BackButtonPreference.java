@@ -1,13 +1,13 @@
-package net.kdt.pojavlaunch.prefs;
+package net.kdt.novalaunch.prefs;
 
 import android.content.Context;
 import android.util.AttributeSet;
 
 import androidx.preference.Preference;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.extra.ExtraConstants;
+import net.kdt.novalaunch.extra.ExtraCore;
 
 public class BackButtonPreference extends Preference {
     public BackButtonPreference(Context context, AttributeSet attrs) {

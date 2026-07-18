@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.tasks;
+package net.kdt.novalaunch.tasks;
 
-import static net.kdt.pojavlaunch.PojavApplication.sExecutorService;
+import static net.kdt.novalaunch.PojavApplication.sExecutorService;
 
 import android.app.Activity;
 import android.util.Log;
@@ -10,20 +10,20 @@ import androidx.annotation.Nullable;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.JAssetInfo;
-import net.kdt.pojavlaunch.JAssets;
-import net.kdt.pojavlaunch.JMinecraftVersionList;
-import net.kdt.pojavlaunch.NewJREUtil;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.mirrors.DownloadMirror;
-import net.kdt.pojavlaunch.mirrors.MirrorTamperedException;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
-import net.kdt.pojavlaunch.utils.FileUtils;
-import net.kdt.pojavlaunch.value.DependentLibrary;
-import net.kdt.pojavlaunch.value.MinecraftClientInfo;
-import net.kdt.pojavlaunch.value.MinecraftLibraryArtifact;
+import net.kdt.novalaunch.JAssetInfo;
+import net.kdt.novalaunch.JAssets;
+import net.kdt.novalaunch.JMinecraftVersionList;
+import net.kdt.novalaunch.NewJREUtil;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.mirrors.DownloadMirror;
+import net.kdt.novalaunch.mirrors.MirrorTamperedException;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.utils.DownloadUtils;
+import net.kdt.novalaunch.utils.FileUtils;
+import net.kdt.novalaunch.value.DependentLibrary;
+import net.kdt.novalaunch.value.MinecraftClientInfo;
+import net.kdt.novalaunch.value.MinecraftLibraryArtifact;
 
 import java.io.File;
 import java.io.IOException;

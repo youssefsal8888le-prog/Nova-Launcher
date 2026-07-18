@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.utils;
+package net.kdt.novalaunch.utils;
 
 import androidx.annotation.NonNull;
 
-import net.kdt.pojavlaunch.JMinecraftVersionList;
-import net.kdt.pojavlaunch.Tools;
+import net.kdt.novalaunch.JMinecraftVersionList;
+import net.kdt.novalaunch.Tools;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

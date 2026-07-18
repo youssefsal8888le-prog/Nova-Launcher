@@ -1,11 +1,11 @@
-package net.kdt.pojavlaunch.value;
+package net.kdt.novalaunch.value;
 
 
 import android.graphics.BitmapFactory;
 import android.util.Log;
 
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.utils.FileUtils;
+import net.kdt.novalaunch.*;
+import net.kdt.novalaunch.utils.FileUtils;
 
 import java.io.*;
 import com.google.gson.*;

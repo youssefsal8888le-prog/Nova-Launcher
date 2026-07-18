@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.memory;
+package net.kdt.novalaunch.memory;
 
 import java.io.FileInputStream;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.api;
+package net.kdt.novalaunch.modloaders.modpacks.api;
 
 import android.util.Log;
 
@@ -10,18 +10,18 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.Constants;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.CurseManifest;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModDetail;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModItem;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchFilters;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchResult;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.utils.FileUtils;
-import net.kdt.pojavlaunch.utils.GsonJsonUtils;
-import net.kdt.pojavlaunch.utils.ZipUtils;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.modloaders.modpacks.models.Constants;
+import net.kdt.novalaunch.modloaders.modpacks.models.CurseManifest;
+import net.kdt.novalaunch.modloaders.modpacks.models.ModDetail;
+import net.kdt.novalaunch.modloaders.modpacks.models.ModItem;
+import net.kdt.novalaunch.modloaders.modpacks.models.SearchFilters;
+import net.kdt.novalaunch.modloaders.modpacks.models.SearchResult;
+import net.kdt.novalaunch.progresskeeper.ProgressKeeper;
+import net.kdt.novalaunch.utils.FileUtils;
+import net.kdt.novalaunch.utils.GsonJsonUtils;
+import net.kdt.novalaunch.utils.ZipUtils;
 
 import java.io.File;
 import java.io.IOException;

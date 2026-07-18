@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.api;
+package net.kdt.novalaunch.modloaders.modpacks.api;
 
 import androidx.annotation.Nullable;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.utils.DownloadUtils;
 
 import java.io.File;
 import java.io.IOException;

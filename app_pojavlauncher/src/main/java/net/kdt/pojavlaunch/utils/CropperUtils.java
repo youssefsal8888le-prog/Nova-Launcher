@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package net.kdt.novalaunch.utils;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -18,13 +18,13 @@ import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 
-import net.kdt.pojavlaunch.PojavApplication;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.imgcropper.BitmapCropBehaviour;
-import net.kdt.pojavlaunch.imgcropper.CropperBehaviour;
-import net.kdt.pojavlaunch.imgcropper.CropperView;
-import net.kdt.pojavlaunch.imgcropper.RegionDecoderCropBehaviour;
+import net.kdt.novalaunch.PojavApplication;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.imgcropper.BitmapCropBehaviour;
+import net.kdt.novalaunch.imgcropper.CropperBehaviour;
+import net.kdt.novalaunch.imgcropper.CropperView;
+import net.kdt.novalaunch.imgcropper.RegionDecoderCropBehaviour;
 
 import java.io.IOException;
 import java.io.InputStream;

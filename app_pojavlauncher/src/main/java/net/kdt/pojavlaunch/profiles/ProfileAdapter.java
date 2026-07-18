@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.profiles;
+package net.kdt.novalaunch.profiles;
 
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
@@ -9,11 +9,11 @@ import android.widget.BaseAdapter;
 
 import androidx.core.graphics.ColorUtils;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.value.launcherprofiles.LauncherProfiles;
+import net.kdt.novalaunch.value.launcherprofiles.MinecraftProfile;
 
 import java.util.ArrayList;
 import java.util.Arrays;

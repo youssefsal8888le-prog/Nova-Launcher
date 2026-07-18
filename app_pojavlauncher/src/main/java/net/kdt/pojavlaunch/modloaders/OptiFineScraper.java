@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.modloaders;
+package net.kdt.novalaunch.modloaders;
 
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import net.kdt.novalaunch.utils.DownloadUtils;
 
 import org.htmlcleaner.HtmlCleaner;
 import org.htmlcleaner.TagNode;

@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.multirt;
+package net.kdt.novalaunch.multirt;
 
-import static net.kdt.pojavlaunch.Tools.NATIVE_LIB_DIR;
+import static net.kdt.novalaunch.Tools.NATIVE_LIB_DIR;
 import static org.apache.commons.io.FileUtils.listFiles;
 
 import android.system.Os;
@@ -8,9 +8,9 @@ import android.util.Log;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.MathUtils;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.utils.MathUtils;
 
 import org.apache.commons.compress.archivers.tar.TarArchiveEntry;
 import org.apache.commons.compress.archivers.tar.TarArchiveInputStream;
@@ -216,7 +216,7 @@ public class MultiRTUtils {
     }
 
     private static void uncompressTarXZ(final InputStream tarFileInputStream, final File dest) throws IOException {
-        net.kdt.pojavlaunch.utils.FileUtils.ensureDirectory(dest);
+        net.kdt.novalaunch.utils.FileUtils.ensureDirectory(dest);
 
         byte[] buffer = new byte[8192];
         TarArchiveInputStream tarIn = new TarArchiveInputStream(
@@ -231,7 +231,7 @@ public class MultiRTUtils {
             ProgressLayout.setProgress(ProgressLayout.UNPACK_RUNTIME, 100, R.string.global_unpacking, tarEntryName);
 
             File destPath = new File(dest, tarEntry.getName());
-            net.kdt.pojavlaunch.utils.FileUtils.ensureParentDirectory(destPath);
+            net.kdt.novalaunch.utils.FileUtils.ensureParentDirectory(destPath);
             if (tarEntry.isSymbolicLink()) {
                 try {
                     // android.system.Os
@@ -242,7 +242,7 @@ public class MultiRTUtils {
                 }
 
             } else if (tarEntry.isDirectory()) {
-                net.kdt.pojavlaunch.utils.FileUtils.ensureDirectory(destPath);
+                net.kdt.novalaunch.utils.FileUtils.ensureDirectory(destPath);
             } else if (!destPath.exists() || destPath.length() != tarEntry.getSize()) {
                 FileOutputStream os = new FileOutputStream(destPath);
                 IOUtils.copyLarge(tarIn, os, buffer);

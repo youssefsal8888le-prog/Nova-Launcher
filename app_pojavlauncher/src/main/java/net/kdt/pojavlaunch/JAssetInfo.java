@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package net.kdt.novalaunch;
 
 import androidx.annotation.Keep;
 

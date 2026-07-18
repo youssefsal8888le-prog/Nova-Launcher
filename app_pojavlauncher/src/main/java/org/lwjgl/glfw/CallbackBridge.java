@@ -1,7 +1,7 @@
 package org.lwjgl.glfw;
 
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.customcontrols.gamepad.direct.DirectGamepadEnableHandler;
+import net.kdt.novalaunch.*;
+import net.kdt.novalaunch.customcontrols.gamepad.direct.DirectGamepadEnableHandler;
 
 import android.content.*;
 import android.util.Log;

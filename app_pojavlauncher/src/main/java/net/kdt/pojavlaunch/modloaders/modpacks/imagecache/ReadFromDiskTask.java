@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.imagecache;
+package net.kdt.novalaunch.modloaders.modpacks.imagecache;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import net.kdt.pojavlaunch.Tools;
+import net.kdt.novalaunch.Tools;
 
 import java.io.File;
 

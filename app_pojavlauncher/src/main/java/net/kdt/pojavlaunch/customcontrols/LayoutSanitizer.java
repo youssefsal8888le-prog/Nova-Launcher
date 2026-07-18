@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols;
+package net.kdt.novalaunch.customcontrols;
 
 import java.util.Iterator;
 import java.util.List;

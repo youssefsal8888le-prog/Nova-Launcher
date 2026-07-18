@@ -29,18 +29,18 @@ import androidx.appcompat.widget.AppCompatSpinner;
 import androidx.core.content.res.ResourcesCompat;
 
 
-import net.kdt.pojavlaunch.PojavProfile;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.authenticator.listener.DoneListener;
-import net.kdt.pojavlaunch.authenticator.listener.ErrorListener;
-import net.kdt.pojavlaunch.authenticator.listener.ProgressListener;
-import net.kdt.pojavlaunch.authenticator.microsoft.PresentedException;
-import net.kdt.pojavlaunch.authenticator.microsoft.MicrosoftBackgroundLogin;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.extra.ExtraListener;
-import net.kdt.pojavlaunch.value.MinecraftAccount;
+import net.kdt.novalaunch.PojavProfile;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.authenticator.listener.DoneListener;
+import net.kdt.novalaunch.authenticator.listener.ErrorListener;
+import net.kdt.novalaunch.authenticator.listener.ProgressListener;
+import net.kdt.novalaunch.authenticator.microsoft.PresentedException;
+import net.kdt.novalaunch.authenticator.microsoft.MicrosoftBackgroundLogin;
+import net.kdt.novalaunch.extra.ExtraConstants;
+import net.kdt.novalaunch.extra.ExtraCore;
+import net.kdt.novalaunch.extra.ExtraListener;
+import net.kdt.novalaunch.value.MinecraftAccount;
 
 import java.io.File;
 import java.io.IOException;

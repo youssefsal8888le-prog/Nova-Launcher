@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package net.kdt.novalaunch;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -19,13 +19,13 @@ import androidx.appcompat.app.AlertDialog;
 
 import com.kdt.LoggerView;
 
-import net.kdt.pojavlaunch.customcontrols.keyboard.AwtCharSender;
-import net.kdt.pojavlaunch.customcontrols.keyboard.TouchCharInput;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.multirt.Runtime;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.JREUtils;
-import net.kdt.pojavlaunch.utils.MathUtils;
+import net.kdt.novalaunch.customcontrols.keyboard.AwtCharSender;
+import net.kdt.novalaunch.customcontrols.keyboard.TouchCharInput;
+import net.kdt.novalaunch.multirt.MultiRTUtils;
+import net.kdt.novalaunch.multirt.Runtime;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.utils.JREUtils;
+import net.kdt.novalaunch.utils.MathUtils;
 
 import org.apache.commons.io.IOUtils;
 import org.lwjgl.glfw.CallbackBridge;

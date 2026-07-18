@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.colorselector;
+package net.kdt.novalaunch.colorselector;
 
 import android.content.Context;
 import android.graphics.Canvas;

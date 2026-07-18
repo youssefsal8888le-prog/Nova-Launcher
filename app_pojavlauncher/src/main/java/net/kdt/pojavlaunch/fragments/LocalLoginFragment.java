@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package net.kdt.novalaunch.fragments;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -9,10 +9,10 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.extra.ExtraConstants;
+import net.kdt.novalaunch.extra.ExtraCore;
 
 import java.io.File;
 import java.util.regex.Matcher;

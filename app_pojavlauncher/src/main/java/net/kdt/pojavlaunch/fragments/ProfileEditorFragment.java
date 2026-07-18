@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.fragments;
+package net.kdt.novalaunch.fragments;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -22,19 +22,19 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.multirt.RTSpinnerAdapter;
-import net.kdt.pojavlaunch.multirt.Runtime;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.profiles.ProfileIconCache;
-import net.kdt.pojavlaunch.profiles.VersionSelectorDialog;
-import net.kdt.pojavlaunch.utils.CropperUtils;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.extra.ExtraConstants;
+import net.kdt.novalaunch.extra.ExtraCore;
+import net.kdt.novalaunch.multirt.MultiRTUtils;
+import net.kdt.novalaunch.multirt.RTSpinnerAdapter;
+import net.kdt.novalaunch.multirt.Runtime;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.profiles.ProfileIconCache;
+import net.kdt.novalaunch.profiles.VersionSelectorDialog;
+import net.kdt.novalaunch.utils.CropperUtils;
+import net.kdt.novalaunch.value.launcherprofiles.LauncherProfiles;
+import net.kdt.novalaunch.value.launcherprofiles.MinecraftProfile;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

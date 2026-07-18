@@ -1,17 +1,17 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.api;
+package net.kdt.novalaunch.modloaders.modpacks.api;
 
 
 import android.content.Context;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.PojavApplication;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModDetail;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModItem;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchFilters;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchResult;
+import net.kdt.novalaunch.PojavApplication;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.modloaders.modpacks.models.ModDetail;
+import net.kdt.novalaunch.modloaders.modpacks.models.ModItem;
+import net.kdt.novalaunch.modloaders.modpacks.models.SearchFilters;
+import net.kdt.novalaunch.modloaders.modpacks.models.SearchResult;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders.modpacks;
+package net.kdt.novalaunch.modloaders.modpacks;
 
 import android.util.Log;
 

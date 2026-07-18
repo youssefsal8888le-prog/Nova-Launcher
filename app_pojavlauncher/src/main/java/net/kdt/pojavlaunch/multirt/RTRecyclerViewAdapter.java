@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.multirt;
+package net.kdt.novalaunch.multirt;
 
-import static net.kdt.pojavlaunch.PojavApplication.sExecutorService;
+import static net.kdt.novalaunch.PojavApplication.sExecutorService;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -17,10 +17,10 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.recyclerview.widget.RecyclerView;
 
-import net.kdt.pojavlaunch.Architecture;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.Architecture;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
 
 import java.io.IOException;
 import java.util.List;

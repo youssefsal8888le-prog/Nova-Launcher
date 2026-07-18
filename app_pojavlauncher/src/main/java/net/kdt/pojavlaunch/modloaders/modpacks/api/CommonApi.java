@@ -1,15 +1,15 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.api;
+package net.kdt.novalaunch.modloaders.modpacks.api;
 
 import android.util.Log;
 
 import androidx.annotation.NonNull;
 
-import net.kdt.pojavlaunch.PojavApplication;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.Constants;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModDetail;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModItem;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchFilters;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchResult;
+import net.kdt.novalaunch.PojavApplication;
+import net.kdt.novalaunch.modloaders.modpacks.models.Constants;
+import net.kdt.novalaunch.modloaders.modpacks.models.ModDetail;
+import net.kdt.novalaunch.modloaders.modpacks.models.ModItem;
+import net.kdt.novalaunch.modloaders.modpacks.models.SearchFilters;
+import net.kdt.novalaunch.modloaders.modpacks.models.SearchResult;
 
 import java.io.IOException;
 import java.util.ArrayList;

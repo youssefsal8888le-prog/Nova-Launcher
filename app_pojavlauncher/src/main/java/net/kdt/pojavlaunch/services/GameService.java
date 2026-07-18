@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.services;
+package net.kdt.novalaunch.services;
 
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -13,10 +13,10 @@ import android.os.Process;
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
-import net.kdt.pojavlaunch.MainActivity;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.NotificationUtils;
+import net.kdt.novalaunch.MainActivity;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.utils.NotificationUtils;
 
 import java.lang.ref.WeakReference;
 

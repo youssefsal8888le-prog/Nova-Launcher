@@ -1,13 +1,13 @@
-package net.kdt.pojavlaunch.prefs.screens;
+package net.kdt.novalaunch.prefs.screens;
 
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 
 import androidx.preference.Preference;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.GLInfoUtils;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.utils.GLInfoUtils;
 
 public class LauncherPreferenceMiscellaneousFragment extends LauncherPreferenceFragment {
     @Override

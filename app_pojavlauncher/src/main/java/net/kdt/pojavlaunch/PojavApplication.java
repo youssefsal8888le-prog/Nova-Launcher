@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package net.kdt.novalaunch;
 
 import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
 
@@ -18,11 +18,11 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import net.kdt.pojavlaunch.lifecycle.ContextExecutor;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.tasks.AsyncAssetManager;
-import net.kdt.pojavlaunch.utils.*;
-import net.kdt.pojavlaunch.utils.FileUtils;
+import net.kdt.novalaunch.lifecycle.ContextExecutor;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.tasks.AsyncAssetManager;
+import net.kdt.novalaunch.utils.*;
+import net.kdt.novalaunch.utils.FileUtils;
 
 public class PojavApplication extends Application {
 	public static final String CRASH_REPORT_TAG = "PojavCrashReport";
@@ -39,7 +39,7 @@ public class PojavApplication extends Application {
 				// Write to file, since some devices may not able to show error
 				FileUtils.ensureParentDirectory(crashFile);
 				PrintStream crashStream = new PrintStream(crashFile);
-				crashStream.append("PojavLauncher crash report\n");
+				crashStream.append("Nova Launcher crash report\n");
 				crashStream.append(" - Time: ").append(DateFormat.getDateTimeInstance().format(new Date())).append("\n");
 				crashStream.append(" - Device: ").append(Build.PRODUCT).append(" ").append(Build.MODEL).append("\n");
 				crashStream.append(" - Android version: ").append(Build.VERSION.RELEASE).append("\n");

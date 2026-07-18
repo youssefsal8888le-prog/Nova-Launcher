@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.modloaders;
+package net.kdt.novalaunch.modloaders;
 
 import android.content.Intent;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.utils.DownloadUtils;
 
 import java.io.File;
 import java.io.IOException;

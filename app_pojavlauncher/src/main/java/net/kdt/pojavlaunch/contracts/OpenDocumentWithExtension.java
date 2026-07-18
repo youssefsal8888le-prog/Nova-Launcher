@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.contracts;
+package net.kdt.novalaunch.contracts;
 
 import android.app.Activity;
 import android.content.Context;

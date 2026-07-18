@@ -1,14 +1,14 @@
-package net.kdt.pojavlaunch.modloaders;
+package net.kdt.novalaunch.modloaders;
 
 import com.kdt.mcgui.ProgressLayout;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.progresskeeper.ProgressKeeper;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
-import net.kdt.pojavlaunch.utils.FileUtils;
-import net.kdt.pojavlaunch.value.launcherprofiles.LauncherProfiles;
-import net.kdt.pojavlaunch.value.launcherprofiles.MinecraftProfile;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.progresskeeper.ProgressKeeper;
+import net.kdt.novalaunch.utils.DownloadUtils;
+import net.kdt.novalaunch.utils.FileUtils;
+import net.kdt.novalaunch.value.launcherprofiles.LauncherProfiles;
+import net.kdt.novalaunch.value.launcherprofiles.MinecraftProfile;
 
 import org.json.JSONException;
 import org.json.JSONObject;

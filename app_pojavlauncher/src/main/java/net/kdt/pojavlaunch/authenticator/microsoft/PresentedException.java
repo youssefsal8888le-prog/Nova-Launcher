@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.authenticator.microsoft;
+package net.kdt.novalaunch.authenticator.microsoft;
 
 import android.content.Context;
 

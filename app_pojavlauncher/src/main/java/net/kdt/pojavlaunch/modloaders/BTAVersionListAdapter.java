@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders;
+package net.kdt.novalaunch.modloaders;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,7 +8,7 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.ExpandableListAdapter;
 import android.widget.TextView;
 
-import net.kdt.pojavlaunch.R;
+import net.kdt.novalaunch.R;
 
 import java.util.ArrayList;
 import java.util.List;

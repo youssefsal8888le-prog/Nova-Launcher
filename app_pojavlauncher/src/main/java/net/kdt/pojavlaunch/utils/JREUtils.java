@@ -1,14 +1,14 @@
-package net.kdt.pojavlaunch.utils;
+package net.kdt.novalaunch.utils;
 
-import static net.kdt.pojavlaunch.Architecture.ARCH_X86;
-import static net.kdt.pojavlaunch.Architecture.is64BitsDevice;
-import static net.kdt.pojavlaunch.Tools.LOCAL_RENDERER;
-import static net.kdt.pojavlaunch.Tools.NATIVE_LIB_DIR;
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
-import static net.kdt.pojavlaunch.Tools.shareLog;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_DUMP_SHADERS;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_VSYNC_IN_ZINK;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_ZINK_PREFER_SYSTEM_DRIVER;
+import static net.kdt.novalaunch.Architecture.ARCH_X86;
+import static net.kdt.novalaunch.Architecture.is64BitsDevice;
+import static net.kdt.novalaunch.Tools.LOCAL_RENDERER;
+import static net.kdt.novalaunch.Tools.NATIVE_LIB_DIR;
+import static net.kdt.novalaunch.Tools.currentDisplayMetrics;
+import static net.kdt.novalaunch.Tools.shareLog;
+import static net.kdt.novalaunch.prefs.LauncherPreferences.PREF_DUMP_SHADERS;
+import static net.kdt.novalaunch.prefs.LauncherPreferences.PREF_VSYNC_IN_ZINK;
+import static net.kdt.novalaunch.prefs.LauncherPreferences.PREF_ZINK_PREFER_SYSTEM_DRIVER;
 
 import android.app.*;
 import android.content.*;
@@ -22,14 +22,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.oracle.dalvik.*;
 import java.io.*;
 import java.util.*;
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.extra.ExtraConstants;
-import net.kdt.pojavlaunch.extra.ExtraCore;
-import net.kdt.pojavlaunch.lifecycle.LifecycleAwareAlertDialog;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.multirt.Runtime;
-import net.kdt.pojavlaunch.plugins.FFmpegPlugin;
-import net.kdt.pojavlaunch.prefs.*;
+import net.kdt.novalaunch.*;
+import net.kdt.novalaunch.extra.ExtraConstants;
+import net.kdt.novalaunch.extra.ExtraCore;
+import net.kdt.novalaunch.lifecycle.LifecycleAwareAlertDialog;
+import net.kdt.novalaunch.multirt.MultiRTUtils;
+import net.kdt.novalaunch.multirt.Runtime;
+import net.kdt.novalaunch.plugins.FFmpegPlugin;
+import net.kdt.novalaunch.prefs.*;
 import org.lwjgl.glfw.*;
 
 public class JREUtils {

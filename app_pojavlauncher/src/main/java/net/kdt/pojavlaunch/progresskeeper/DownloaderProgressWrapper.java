@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.progresskeeper;
+package net.kdt.novalaunch.progresskeeper;
 
-import static net.kdt.pojavlaunch.Tools.BYTE_TO_MB;
+import static net.kdt.novalaunch.Tools.BYTE_TO_MB;
 
-import net.kdt.pojavlaunch.Tools;
+import net.kdt.novalaunch.Tools;
 
 public class DownloaderProgressWrapper implements Tools.DownloaderFeedback {
 

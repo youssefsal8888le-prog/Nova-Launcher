@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.prefs;
+package net.kdt.novalaunch.prefs;
 
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.Build.VERSION_CODES.P;
 
-import static net.kdt.pojavlaunch.Architecture.is32BitsDevice;
+import static net.kdt.novalaunch.Architecture.is32BitsDevice;
 
 import android.app.Activity;
 import android.content.*;
@@ -13,9 +13,9 @@ import android.os.Build;
 import android.util.DisplayMetrics;
 import android.util.Log;
 
-import net.kdt.pojavlaunch.*;
-import net.kdt.pojavlaunch.multirt.MultiRTUtils;
-import net.kdt.pojavlaunch.utils.JREUtils;
+import net.kdt.novalaunch.*;
+import net.kdt.novalaunch.multirt.MultiRTUtils;
+import net.kdt.novalaunch.utils.JREUtils;
 
 import java.io.IOException;
 

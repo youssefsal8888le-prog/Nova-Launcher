@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.customcontrols;
+package net.kdt.novalaunch.customcontrols;
 
 import static android.content.Context.INPUT_METHOD_SERVICE;
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static net.kdt.novalaunch.Tools.currentDisplayMetrics;
 
 import static org.lwjgl.glfw.CallbackBridge.isGrabbing;
 
@@ -23,18 +23,18 @@ import com.google.gson.JsonSyntaxException;
 import com.kdt.pickafile.FileListView;
 import com.kdt.pickafile.FileSelectedListener;
 
-import net.kdt.pojavlaunch.MinecraftGLSurface;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlButton;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlDrawer;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlJoystick;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlSubButton;
-import net.kdt.pojavlaunch.customcontrols.handleview.ActionRow;
-import net.kdt.pojavlaunch.customcontrols.handleview.ControlHandleView;
-import net.kdt.pojavlaunch.customcontrols.handleview.EditControlSideDialog;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.MinecraftGLSurface;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.customcontrols.buttons.ControlButton;
+import net.kdt.novalaunch.customcontrols.buttons.ControlDrawer;
+import net.kdt.novalaunch.customcontrols.buttons.ControlInterface;
+import net.kdt.novalaunch.customcontrols.buttons.ControlJoystick;
+import net.kdt.novalaunch.customcontrols.buttons.ControlSubButton;
+import net.kdt.novalaunch.customcontrols.handleview.ActionRow;
+import net.kdt.novalaunch.customcontrols.handleview.ControlHandleView;
+import net.kdt.novalaunch.customcontrols.handleview.EditControlSideDialog;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
 
 import java.io.File;
 import java.io.IOException;

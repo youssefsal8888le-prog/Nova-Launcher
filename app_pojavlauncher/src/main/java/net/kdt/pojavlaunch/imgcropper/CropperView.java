@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.imgcropper;
+package net.kdt.novalaunch.imgcropper;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -14,7 +14,7 @@ import android.view.View;
 import androidx.annotation.CallSuper;
 import androidx.annotation.Nullable;
 
-import net.kdt.pojavlaunch.Tools;
+import net.kdt.novalaunch.Tools;
 
 import top.defaults.checkerboarddrawable.CheckerboardDrawable;
 

@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.imgcropper;
+package net.kdt.novalaunch.imgcropper;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -10,9 +10,9 @@ import android.graphics.RectF;
 import android.os.Handler;
 import android.os.Looper;
 
-import net.kdt.pojavlaunch.PojavApplication;
-import net.kdt.pojavlaunch.modloaders.modpacks.SelfReferencingFuture;
-import net.kdt.pojavlaunch.utils.MatrixUtils;
+import net.kdt.novalaunch.PojavApplication;
+import net.kdt.novalaunch.modloaders.modpacks.SelfReferencingFuture;
+import net.kdt.novalaunch.utils.MatrixUtils;
 
 import java.util.concurrent.Future;
 

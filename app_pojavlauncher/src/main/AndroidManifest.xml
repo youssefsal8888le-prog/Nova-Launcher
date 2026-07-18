@@ -131,6 +131,6 @@
         </service>
     </application>
     <queries>
-        <package android:name="net.kdt.pojavlaunch.ffmpeg"/>
+        <package android:name="net.kdt.novalaunch.ffmpeg"/>
     </queries>
 </manifest>

@@ -1,14 +1,14 @@
-package net.kdt.pojavlaunch.fragments;
+package net.kdt.novalaunch.fragments;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.widget.ExpandableListAdapter;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.modloaders.BTADownloadTask;
-import net.kdt.pojavlaunch.modloaders.BTAUtils;
-import net.kdt.pojavlaunch.modloaders.BTAVersionListAdapter;
-import net.kdt.pojavlaunch.modloaders.ModloaderListenerProxy;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.modloaders.BTADownloadTask;
+import net.kdt.novalaunch.modloaders.BTAUtils;
+import net.kdt.novalaunch.modloaders.BTAVersionListAdapter;
+import net.kdt.novalaunch.modloaders.ModloaderListenerProxy;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,6 +1,6 @@
-package net.kdt.pojavlaunch.customcontrols.buttons;
+package net.kdt.novalaunch.customcontrols.buttons;
 
-import static net.kdt.pojavlaunch.LwjglGlfwKeycode.GLFW_KEY_UNKNOWN;
+import static net.kdt.novalaunch.LwjglGlfwKeycode.GLFW_KEY_UNKNOWN;
 import static org.lwjgl.glfw.CallbackBridge.sendKeyPress;
 import static org.lwjgl.glfw.CallbackBridge.sendMouseButton;
 
@@ -15,13 +15,13 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.MainActivity;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.handleview.EditControlSideDialog;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.LwjglGlfwKeycode;
+import net.kdt.novalaunch.MainActivity;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.customcontrols.ControlData;
+import net.kdt.novalaunch.customcontrols.ControlLayout;
+import net.kdt.novalaunch.customcontrols.handleview.EditControlSideDialog;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
 
 import org.lwjgl.glfw.CallbackBridge;
 

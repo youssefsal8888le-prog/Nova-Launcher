@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.utils;
+package net.kdt.novalaunch.utils;
 
 
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.DEFAULT_PREF;
-import static net.kdt.pojavlaunch.prefs.LauncherPreferences.PREF_FORCE_ENGLISH;
+import static net.kdt.novalaunch.prefs.LauncherPreferences.DEFAULT_PREF;
+import static net.kdt.novalaunch.prefs.LauncherPreferences.PREF_FORCE_ENGLISH;
 
 import android.content.*;
 import android.content.res.*;

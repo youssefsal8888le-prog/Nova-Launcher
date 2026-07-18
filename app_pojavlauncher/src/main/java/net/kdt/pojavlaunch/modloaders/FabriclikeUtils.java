@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.modloaders;
+package net.kdt.novalaunch.modloaders;
 
 import com.google.gson.JsonSyntaxException;
 
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.utils.DownloadUtils;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.utils.DownloadUtils;
 
 import org.json.JSONArray;
 import org.json.JSONException;

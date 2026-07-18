@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders.modpacks;
+package net.kdt.novalaunch.modloaders.modpacks;
 
 import android.annotation.SuppressLint;
 import android.content.res.Resources;
@@ -20,18 +20,18 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.kdt.SimpleArrayAdapter;
 
-import net.kdt.pojavlaunch.PojavApplication;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.modloaders.modpacks.api.ModpackApi;
-import net.kdt.pojavlaunch.modloaders.modpacks.imagecache.ImageReceiver;
-import net.kdt.pojavlaunch.modloaders.modpacks.imagecache.ModIconCache;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.Constants;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModDetail;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.ModItem;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchFilters;
-import net.kdt.pojavlaunch.modloaders.modpacks.models.SearchResult;
-import net.kdt.pojavlaunch.progresskeeper.TaskCountListener;
+import net.kdt.novalaunch.PojavApplication;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.modloaders.modpacks.api.ModpackApi;
+import net.kdt.novalaunch.modloaders.modpacks.imagecache.ImageReceiver;
+import net.kdt.novalaunch.modloaders.modpacks.imagecache.ModIconCache;
+import net.kdt.novalaunch.modloaders.modpacks.models.Constants;
+import net.kdt.novalaunch.modloaders.modpacks.models.ModDetail;
+import net.kdt.novalaunch.modloaders.modpacks.models.ModItem;
+import net.kdt.novalaunch.modloaders.modpacks.models.SearchFilters;
+import net.kdt.novalaunch.modloaders.modpacks.models.SearchResult;
+import net.kdt.novalaunch.progresskeeper.TaskCountListener;
 
 import java.util.Arrays;
 import java.util.Collections;

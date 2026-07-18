@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.customcontrols.handleview;
+package net.kdt.novalaunch.customcontrols.handleview;
 
 import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
 
-import static net.kdt.pojavlaunch.Tools.currentDisplayMetrics;
+import static net.kdt.novalaunch.Tools.currentDisplayMetrics;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -21,18 +21,18 @@ import android.widget.TextView;
 
 import com.kdt.SideDialogView;
 
-import net.kdt.pojavlaunch.EfficientAndroidLWJGLKeycode;
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.colorselector.ColorSelector;
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlDrawerData;
-import net.kdt.pojavlaunch.customcontrols.ControlJoystickData;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlDrawer;
-import net.kdt.pojavlaunch.customcontrols.buttons.ControlInterface;
-import net.kdt.pojavlaunch.utils.interfaces.SimpleItemSelectedListener;
-import net.kdt.pojavlaunch.utils.interfaces.SimpleSeekBarListener;
-import net.kdt.pojavlaunch.utils.interfaces.SimpleTextWatcher;
+import net.kdt.novalaunch.EfficientAndroidLWJGLKeycode;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.colorselector.ColorSelector;
+import net.kdt.novalaunch.customcontrols.ControlData;
+import net.kdt.novalaunch.customcontrols.ControlDrawerData;
+import net.kdt.novalaunch.customcontrols.ControlJoystickData;
+import net.kdt.novalaunch.customcontrols.buttons.ControlDrawer;
+import net.kdt.novalaunch.customcontrols.buttons.ControlInterface;
+import net.kdt.novalaunch.utils.interfaces.SimpleItemSelectedListener;
+import net.kdt.novalaunch.utils.interfaces.SimpleSeekBarListener;
+import net.kdt.novalaunch.utils.interfaces.SimpleTextWatcher;
 
 import java.util.List;
 

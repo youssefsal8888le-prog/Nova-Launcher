@@ -1,13 +1,13 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package net.kdt.novalaunch.customcontrols.mouse;
 
 import static org.lwjgl.glfw.CallbackBridge.sendMouseButton;
 
 import android.os.Handler;
 
-import net.kdt.pojavlaunch.LwjglGlfwKeycode;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
-import net.kdt.pojavlaunch.utils.MathUtils;
+import net.kdt.novalaunch.LwjglGlfwKeycode;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.utils.MathUtils;
 
 import org.lwjgl.glfw.CallbackBridge;
 

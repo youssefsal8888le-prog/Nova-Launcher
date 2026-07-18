@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.progresskeeper;
+package net.kdt.novalaunch.progresskeeper;
 
 public interface ProgressListener {
     void onProgressStarted();

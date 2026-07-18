@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch;
+package net.kdt.novalaunch;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,12 +10,12 @@ import android.widget.ListView;
 
 import androidx.drawerlayout.widget.DrawerLayout;
 
-import net.kdt.pojavlaunch.customcontrols.ControlData;
-import net.kdt.pojavlaunch.customcontrols.ControlDrawerData;
-import net.kdt.pojavlaunch.customcontrols.ControlJoystickData;
-import net.kdt.pojavlaunch.customcontrols.ControlLayout;
-import net.kdt.pojavlaunch.customcontrols.EditorExitable;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.customcontrols.ControlData;
+import net.kdt.novalaunch.customcontrols.ControlDrawerData;
+import net.kdt.novalaunch.customcontrols.ControlJoystickData;
+import net.kdt.novalaunch.customcontrols.ControlLayout;
+import net.kdt.novalaunch.customcontrols.EditorExitable;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
 
 import java.io.IOException;
 

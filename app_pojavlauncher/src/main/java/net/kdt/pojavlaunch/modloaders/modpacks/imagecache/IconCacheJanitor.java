@@ -1,8 +1,8 @@
-package net.kdt.pojavlaunch.modloaders.modpacks.imagecache;
+package net.kdt.novalaunch.modloaders.modpacks.imagecache;
 
 import android.util.Log;
 
-import net.kdt.pojavlaunch.PojavApplication;
+import net.kdt.novalaunch.PojavApplication;
 
 import java.io.File;
 import java.util.ArrayList;

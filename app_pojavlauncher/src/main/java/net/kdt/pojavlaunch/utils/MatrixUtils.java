@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.utils;
+package net.kdt.novalaunch.utils;
 
 import android.graphics.Matrix;
 import android.graphics.Rect;

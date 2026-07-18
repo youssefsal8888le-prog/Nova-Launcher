@@ -1,7 +1,7 @@
-package net.kdt.pojavlaunch.customcontrols.keyboard;
+package net.kdt.novalaunch.customcontrols.keyboard;
 
-import net.kdt.pojavlaunch.AWTInputBridge;
-import net.kdt.pojavlaunch.AWTInputEvent;
+import net.kdt.novalaunch.AWTInputBridge;
+import net.kdt.novalaunch.AWTInputEvent;
 
 /** Send chars via the AWT Bridgee */
 public class AwtCharSender implements CharacterSenderStrategy {

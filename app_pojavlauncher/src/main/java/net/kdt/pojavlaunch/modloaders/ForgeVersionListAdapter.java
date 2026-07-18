@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders;
+package net.kdt.novalaunch.modloaders;
 
 import android.view.LayoutInflater;
 import android.view.View;

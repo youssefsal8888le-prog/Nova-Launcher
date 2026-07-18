@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.value.launcherprofiles;
+package net.kdt.novalaunch.value.launcherprofiles;
 
 import androidx.annotation.Keep;
 

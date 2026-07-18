@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.multirt;
+package net.kdt.novalaunch.multirt;
 
 import java.util.Objects;
 

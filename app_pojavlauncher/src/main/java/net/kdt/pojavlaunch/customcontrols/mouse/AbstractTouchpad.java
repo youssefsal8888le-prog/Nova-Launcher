@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.customcontrols.mouse;
+package net.kdt.novalaunch.customcontrols.mouse;
 
 public interface AbstractTouchpad {
     /**

@@ -1,9 +1,9 @@
-package net.kdt.pojavlaunch.lifecycle;
+package net.kdt.novalaunch.lifecycle;
 
 import android.app.Activity;
 import android.app.Application;
 
-import net.kdt.pojavlaunch.Tools;
+import net.kdt.novalaunch.Tools;
 
 import java.lang.ref.WeakReference;
 

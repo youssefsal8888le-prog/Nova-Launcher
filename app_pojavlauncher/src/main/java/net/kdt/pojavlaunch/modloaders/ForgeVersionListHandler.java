@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.modloaders;
+package net.kdt.novalaunch.modloaders;
 
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;

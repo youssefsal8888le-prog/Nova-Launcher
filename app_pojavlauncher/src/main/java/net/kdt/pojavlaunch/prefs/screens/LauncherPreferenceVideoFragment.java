@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.prefs.screens;
+package net.kdt.novalaunch.prefs.screens;
 
 import android.content.SharedPreferences;
 import android.os.Build;
@@ -8,10 +8,10 @@ import androidx.preference.ListPreference;
 import androidx.preference.SwitchPreference;
 import androidx.preference.SwitchPreferenceCompat;
 
-import net.kdt.pojavlaunch.R;
-import net.kdt.pojavlaunch.Tools;
-import net.kdt.pojavlaunch.prefs.CustomSeekBarPreference;
-import net.kdt.pojavlaunch.prefs.LauncherPreferences;
+import net.kdt.novalaunch.R;
+import net.kdt.novalaunch.Tools;
+import net.kdt.novalaunch.prefs.CustomSeekBarPreference;
+import net.kdt.novalaunch.prefs.LauncherPreferences;
 
 /**
  * Fragment for any settings video related

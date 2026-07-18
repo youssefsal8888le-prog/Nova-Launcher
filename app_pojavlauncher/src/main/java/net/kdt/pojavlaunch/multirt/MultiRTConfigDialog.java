@@ -1,4 +1,4 @@
-package net.kdt.pojavlaunch.multirt;
+package net.kdt.novalaunch.multirt;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -9,7 +9,7 @@ import androidx.activity.result.ActivityResultLauncher;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import net.kdt.pojavlaunch.R;
+import net.kdt.novalaunch.R;
 
 public class MultiRTConfigDialog {
     private AlertDialog mDialog;
