@@ -21,23 +21,16 @@ jobs:
           gradle-version: "8.11"
       - name: Build Nova Launcher APK
         run: |
-          # Aseguramos que los scripts tengan permiso
           chmod +x scripts/languagelist_updater.sh
           ./scripts/languagelist_updater.sh
           
-          # Creamos los archivos que faltan para que no de error
-          mkdir -p app_pojavlauncher/src/main/assets/components/lwjgl3
-          echo "3.3.3" > app_pojavlauncher/src/main/assets/components/lwjgl3/version
+          # USAMOS EL NOMBRE NUEVO QUE NOS PIDE GRADLE
+          ./gradlew :app_novalauncher:assembleDebug --no-daemon
           
-          # Compilamos directamente el APK de depuración
-          ./gradlew :app_pojavlauncher:assembleDebug --no-daemon
-          
-          # Movemos el resultado a una carpeta de salida
           mkdir -p out
-          cp app_pojavlauncher/build/outputs/apk/debug/app_pojavlauncher-debug.apk out/nova-launcher-debug.apk
+          cp app_novalauncher/build/outputs/apk/debug/app_novalauncher-debug.apk out/nova-launcher-debug.apk
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: nova-launcher-apk
           path: out/nova-launcher-debug.apk
-
