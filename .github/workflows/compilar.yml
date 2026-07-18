@@ -19,18 +19,15 @@ jobs:
       - name: Build Nova Launcher APK
         run: |
           chmod +x gradlew
-          # Intentamos compilar el proyecto principal
           ./gradlew assembleDebug --no-daemon --continue || true
-          
-          # Buscamos CUALQUIER archivo APK que se haya generado en todo el repositorio
           mkdir -p out
-          find . -name "*.apk" -type f -exec cp {} out/nova-launcher-debug.apk \;
-          
-          # Verificamos si se encontró algo para que no falle el siguiente paso
-          ls -R out/
-      - name: Upload APK
-        uses: actions/upload-artifact@v4
+          # Buscamos el APK y lo movemos a la carpeta out
+          find . -name "*debug.apk" -type f -exec cp {} out/nova-launcher.apk \;
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
         with:
-          name: nova-launcher-apk
-          path: out/*.apk
-          if-no-files-found: warn
+          tag_name: v1.0.0
+          name: Nova Launcher v1.0.0
+          files: out/nova-launcher.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
